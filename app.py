@@ -1,9 +1,5 @@
 import pandas as pd
 import plotly.graph_objects as go
-import plotly.express as px
-import base64
-import datetime
-import io
 import numpy as np
 
 import dash
@@ -12,8 +8,6 @@ import dash_html_components as html
 import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output, State
 from dash import no_update
-import dash_table
-import virtualenv
 
 # --------------------------------------------------
 
